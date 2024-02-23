@@ -1,0 +1,572 @@
+HTML - HYPERTEXT MARKUP LANGUAGE.
+
+markup language
+
+inorder to create design in web pages.
+
+tag based language <>.
+
+eg:- html, xml
+
+
+opening tag => <h1>
+
+closing tag => </h1>
+
+self closing tags or void element=> <img/> <source/>
+
+IDE - Integrated development environment
+
+visual studio code, eclipse, sublime
+
+syntax- set of rules
+
+basic structure
+
+<html>
+<head>
+<title></title>  -To give title to a web page.
+</head>
+<body>
+contents are placed here
+</body>
+</html>
+
+
+<!-- comments --> - to increase readability
+
+html layout structure - basic structure + semantics
+----------------------------------------------------------------------------------------------------
+semantic tags - It optimize the loading time. It is placed inside the body tag. It is not mandatory.
+
+1)header
+2)aside 
+3)main
+4)footer
+
+alt + z for code refracting
+alt + w for wrapping code inside p tag
+
+HTML 5 - latest version
+updates ?
+
+html 5 tags
+1) heading tags - <h1>,..........,<h6>
+2) paragraph tag - <p></p>
+3) links => <a> - href - url to navigate
+4) images => <img>
+5) button => <button>
+6) hr - To specify horizontal line
+7) iframe - nest the website
+8) table - to craete tables
+    - thead  - to create heading
+    - tbody - to create body of the table
+    - tr - to create rows in the table
+    - th - heading contents
+    - td - body contents
+9) list
+    - ordered list 
+      - <ol>
+      - <li> - items
+    - unordered list  
+      - <ul>
+      - <li> 
+10) form - to create forms
+11) placeholder
+12) div - to create division in webpage
+13) span - to style separately within a content in an html element.
+
+attributes - gives additional information to a given tag.
+
+eg: - href, target of a tag.
+
+block level elements => start in a new line - a, heading tags, p
+
+inline level eleemnts => start in the same line - img,button 
+
+
+html: 5
+-------
+
+-media updation
+
+video tag - to embed downloaded video
+
+audio tag - to embed audio 
+
+figure tags - for placing images 
+            - additionally provide captions
+            - block level element
+
+iframe tags - inline level element
+
+---------------------------------------------------------------------------------
+CSS - Cascading Style Sheet 
+
+- To provide styling to the web contents.
+
+Different way of using CSS
+
+- inline CSS
+      - style atrribute is used to provide style
+      - syntax => style="property:value"
+
+- internal css
+      syntax   => <style>
+                    tagname{
+                      property:value;
+                    }
+                  </style>
+      - style should be placed inside head tag.   
+
+- external css
+     link tag - is used to connect external css file with the html file.
+
+     external css file - filename.css
+
+better approach - external css
+
+- less complexity 
+
+- loading time reduces
+
+- css reusabiliy
+
+
+priority order
+
+1) inline
+2) internal
+3) external
+
+
+CSS Selectors
+
+1) tagname Selectors
+2) id selectors - to style uniquely
+3) class selectors - to style in a group
+4) universal selector - to style entire document
+5) descendent selector - parent child{}
+
+
+css box model
+-------------
+1) border - imaginary (by default it is not visible) line around the content
+2) margin - space between border and outer space
+3) padding - space between border and the content
+             padding - effect all side
+             padding-top, padding-bottom, padding-left, padding-right
+
+
+border-radius - to give curves to the edges.
+
+display:flex - to place all child tag in inline level.
+
+cdn - content delivery network - to access content of one network to another network 
+
+display: inline-block - respects both top and bottom margin and padding as compared to display:flex.
+
+
+CSS Grid System
+
+display - grid system( will divide it into rows and column)
+
+grid-template-column - It specifices number and size of column inside that particular grid
+
+grid-template-row - It specifices number and size of rows inside that particular grid
+
+column-gap - specifies gap between the columns
+
+row-gap - specifies gap between the rows
+
+relative positioning  -> moves an element relative to its default position on the page.
+while absolute positioning -> moves an element relative to its nearest positioned ancestor.
+
+media query
+-----------
+
+- used to create responsive website.
+
+phones - max-width:600px (below and up to 600px)
+portrait tablets, large phones - min-width:600px and above
+landscape tablets - min-width:768px and above
+laptop/desktops - min-width:992px and above
+large laptops and desktops - min-width:1200px and above
+
+visibility:hidden - the content is only hidden but it exists in dom.
+
+display: none -the content is hidden in dom as well as in ui.
+
+---------------------------------------
+individual project - restaurant website
+---------------------------------------
+
+Bootstrap
+---------
+
+- framework - work within frames
+- It have predefined classes which can be used to style contents.
+- It is a framework of html, css, javascript.
+
+modal
+card
+pagination
+offcanvas
+navbar
+
+Bootstrap grid system
+---------------------
+
+- consists of rows and columns
+
+- each row contains 12 basic columns
+
+responsive 
+----------
+
+xs <576px	 - phone
+
+sm ≥576px	- tablets
+
+md ≥768px	- laptops
+
+lg ≥992px	- large laptops and desktops
+
+xl ≥1200px	
+
+xxl ≥1400px
+
+project - travel website - html css bootstrap grid system
+
+git and github
+--------------
+
+- github are used to share code.
+
+- cloud based 
+
+- version control system
+
+- hosting - can hoist website created using basic frontend technologies such as html, css, bootstrap, javascript.
+
+git is a tool to do operations in github.
+
+storage
+-------
+github storage space - remote repository 
+
+git storage space - local repository
+
+
+git operations
+--------------
+1) push - local to remote repository - uploading code
+2) clone - remote to local repo - downloading code - enntire code.
+3) pull - remote to local repo - downloading code - updated code.
+
+
+git add - from our computer local storage to staging area
+git commit - from staging area to local repository
+git push - from local repo to remote repo
+
+comments
+--------
+git init - to create a empty git repository for that particular folder.
+git status - to see uncommited or untracked files
+git add - to add file into staging area
+create remote repository in github
+git remote add origin http-url - to connect local repo and newly created remote repo
+git push origin master - to push data from master to origin.
+git clone url
+git pull url
+
+javascript
+----------
+
+javascript is a single threaded programming language since it excecutes the code line by line.
+
+It is also a dynamically typed language - data type changes.
+
+javascript can be used in both front end as well as backend.
+
+frontend - it gives behaviour
+
+backend - it is used to do logical operations.
+
+JS is compiled using node.
+
+extension - .js
+
+data types - 8
+-----------
+
+1) string - single quotes or double quotes
+2) boolean - true or false
+3) number 
+
+
+method to check data types
+--------------------------
+typeOf()
+
+concatenation
+-------------
+to join or add same or different data type
+
+string + string = string
+string + number = string
+number + number = number
+
+variables
+---------
+- used to store data
+- identifiers - set of rules to create variables.
+
+1) start with dollar, underscore, letters.
+2) subsequent characters can be letters, digits, underscore etc.
+3) If more than one word second word should begin with capital letter or use underscore between the words and no space between the words.
+
+
+
+variableName = value;
+
+keywords variableName = value;
+
+keywords is a set of reserved words which gives a special meaning to variables.
+
+cannot be used as variable name and function name.
+
+1) const - its value does not change. 
+           reassigning is not possible.
+           hoisting is not possible.
+
+2) var - value changes throughout - reassigning is possible.
+         hoisting is possible.
+         functional level access
+
+3) let - reassigning is possible.
+         accessible inside a block.
+         hoisting is not possible.
+
+
+hoisting
+--------
+using of variables before it is declared or created.
+
+template literals
+-----------------
+- it is a way of displaying content.
+- `content ${variable}`
+
+operator
+--------
+1) Assignment operator =
+2) Arithematic operator 
+   addition +
+   subtraction -
+   division /
+   multiplication *
+   modulus %
+   exponential **
+3) relational operators
+   > >= < <= == ===
+   will return true or false   
+   == -> return true if compared values are equal
+   === -> return true if data type and compared values are same
+4) logical operators -joins two or more relational operators. It return boolean value.
+   and && 
+   or  || 
+   not !
+
+   T && T = T
+   T && F = F
+   F && T = F
+   F && F = F
+
+   T || T = T
+   T || F = T
+   F || T = T
+   F || F = F
+
+   !T = F
+   !F = T
+
+5) increment and decrement operator
+ ++ 
+ --
+
+6) shorthand operator
+x = x + y  => x+=y
+x= x- y    => x-=y
+
+7) ternary operator
+
+   condition ? true statement : false statement;
+
+   if else -> 
+
+conditional statements/decision making statements
+-------------------------------------------------
+
+if else
+     
+     if(condition){
+        statement
+     }
+     else if(condition){
+      
+     }
+     else{
+        statement
+     }
+
+looping statements
+------------------
+to do task repeatedly
+
+1) while loop 
+
+   while(condition){
+      task
+      condition to exit the loop (increment / decrement) )
+   }
+
+2) for loop
+   
+   for(variable initialization; condition; increment/decrement){
+      statement
+   }
+
+   break- It is used to exit forcefully from a loop.
+
+   nested loop - loop inside another loop
+
+1) functions
+---------
+same task is repeatedly executed at different locations.
+
+functions have two parts
+
+1) function definition
+
+   - where we define the task 
+
+   syntax
+   ------
+
+   function functionname(arg1, ....argn){
+      task
+   }
+
+2) function call
+   - to execute the task.
+
+   syntax
+   ------
+
+   functionname(arg1,........,argn)
+
+functional hoisting - calling a function before its definition is known as functional hoisting
+
+variable of a function is having block level scope.
+
+It is not accessible from outside the function.
+
+But if it is needed we need to return the variable from function.
+
+2) arrow function
+   --------------
+
+   syntax
+   ------
+   keyword variable = (arg1,.....,argn) => {
+
+   }
+
+   variable()
+
+3) predefined functions
+   --------------------
+   comsole.log()
+   Number()
+   typeof()
+   Math.floor()
+   parseInt()
+
+
+4) call back functions
+   -------------------
+   The function calling another function are called call back functions.
+
+   setTimeOut() - call back function, to provide time delay
+   arrow functions can be used as call back function
+
+5) asynchronous function
+The functions which has time delay
+API calls is asynchronous.
+
+6) synchronous function
+function with no time delay 
+
+eg:- console.log()
+
+
+7) nested functions
+   ----------------
+   function inside another function
+
+   closure property in nested function
+   -----------------------------------
+   parent properties can be accessed from child but not possible in vice versa
+
+   
+Data structure
+--------------
+It is a specialized format of organizing retrieving, processing and storing data.
+
+eg:- array, list, linked list, stack, queue, tree, graph
+
+array
+-----
+
+definition
+----------
+
+array is a single variable which can store more than one value 
+of different data type that are seperated by commas and enclosed
+within square bracket.
+
+- array is infinite in javascript.
+- unlike variables array can hold more than one data or value.
+- array can store more than one data type.
+- stored as key: value pairs
+- key - index position
+- value - data
+
+index - indicates the position of elements and array.
+value - start from 0 to arraylength-1.
+
+length - number of items or data inside the array.
+length start from 1.
+
+representation / syntax
+-----------------------
+
+keyword variable = [item1,.......,itemn]
+
+array operations
+----------------
+
+1) push() - to add data at the end of an array.
+
+2) unshift() - to add data at the beggining of an array.
+
+3) pop() - to remove an item from array.
+
+4) shift() - to remove item from the start.
+
+Different way of accessing array elements
+-----------------------------------------
+1) for loop
+2) for in - directly access the index of the array
+3) for of - directly access the value of an array
